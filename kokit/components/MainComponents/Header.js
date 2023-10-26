@@ -10,13 +10,13 @@ export default function Header(){
   };
 
   return (
-    <S.Wrapper>
+   
       <S.Container>
         <S.MenuBar src='/img/menubar.png' onClick={toggleMenu} menuVisible={menuVisible}/>
         <S.Logo src="/img/logo.png" />
 
         {menuVisible && <MenuBar menuVisible={menuVisible} onClick={toggleMenu} />}
       </S.Container>
-    </S.Wrapper>
+    
   );
 };

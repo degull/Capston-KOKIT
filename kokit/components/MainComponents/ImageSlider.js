@@ -99,7 +99,7 @@ export default function ImageSlider() {
   };
 
   return (
-    <S.Wrapper>
+    <S.Container>
       <S.SliderContainer ref={containerRef}>
         <S.Slider ref={sliderRef} style={{ ...slideStyle, width: `${sliderWidth}%` }}>
           {images.map((image, index) => (
@@ -107,6 +107,6 @@ export default function ImageSlider() {
           ))}
         </S.Slider>
       </S.SliderContainer>
-    </S.Wrapper>
+    </S.Container>
   );
 }

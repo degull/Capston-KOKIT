@@ -13,7 +13,7 @@ export default function Main() {
          <S.Container>
             <Header />
             <Container/>
-            {/* <ImageSlider /> */}
+            <ImageSlider />
             {/* <Body /> */}
         </S.Container>
       </S.Wrapper>
