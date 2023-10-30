@@ -13,8 +13,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 250px;
-  height: 70px;
+/*   width: 250px;
+  height: 70px; */
 `;
 
 export const CloseButton = styled.img`
@@ -52,6 +52,7 @@ export const Mail = styled.div`
   font-weight: 400;
   line-height: normal;
   margin-top: 8px;
+
 `;
 
 export const Mypage = styled.div`
@@ -62,20 +63,22 @@ export const Mypage = styled.div`
   font-weight: 400;
   line-height: normal;
   margin-top: 15px;
+  cursor: pointer;
 `;
 
 export const MypageImg = styled.img`
   width: 5px;
   height: 5px;
   margin-left: 6px;
+  cursor: pointer;
 `;
 
 export const Event1 = styled.div`
-  width: 167px;
+  width: 200px;
   height: 25px;
   color: #000;
   font-family: Inter;
-  font-size: 7px;
+  font-size: 9px;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -85,13 +88,14 @@ export const Event1 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 `;
 export const Event2 = styled.div`
-  width: 167px;
+  width: 200px;
   height: 25px;
   color: #000;
   font-family: Inter;
-  font-size: 7px;
+  font-size: 9px;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -101,4 +105,19 @@ export const Event2 = styled.div`
   margin-left: 15px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+`;
+
+export const Logout = styled.div`
+  width: 40px;
+  color: #E72424;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  display: flex;
+  margin-left: 15px;
+  margin: 290px 0 0 20px;
+  cursor: pointer;
 `;

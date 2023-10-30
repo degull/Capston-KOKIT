@@ -11,7 +11,7 @@ export default function MenuBar({ menuVisible, onClick }) {
                {/* 추후 데이터 받아오기 */}
                <S.Profile1>
                   홍길동
-                  <S.Profile2>님</S.Profile2>
+                  <S.Profile2> 님</S.Profile2>
                </S.Profile1>
 
                <S.Mail>abcdefg@gmail.com</S.Mail>
@@ -22,7 +22,10 @@ export default function MenuBar({ menuVisible, onClick }) {
             <S.Event1>신청 행사</S.Event1>
             <S.Event2>관심 행사</S.Event2>
 
+            <S.Logout>로그아웃</S.Logout>
          </S.Container>
+
+         
 
 
 

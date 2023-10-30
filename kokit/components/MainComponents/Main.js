@@ -6,7 +6,6 @@ import Container from './Container';
 import Body from './Body';
 import ImageSlider from './ImageSlider';
 
-
 export default function Main() {
   return (
       <S.Wrapper>

@@ -11,9 +11,5 @@ export default function Body(){
          <S.Layout3><S.LayoutImg3 src='img/community.png'/></S.Layout3>
          <S.Layout4><S.LayoutImg4 src='img/job.png'/></S.Layout4>
       </S.Container>
-   
-
-      
-   
   );
 };

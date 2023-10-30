@@ -14,7 +14,7 @@ export const Container = styled.div`
   align-items: center;
 `;
 
-export const Login = styled.text`
+export const Login = styled.a`
    color: #686868;
    font-size: 9px;
    font-style: normal;
@@ -26,7 +26,7 @@ export const Login = styled.text`
    cursor: pointer;
 `;
 
-export const SignUp = styled.text`
+export const SignUp = styled.a`
    color: #686868;
    font-size: 9px;
    font-style: normal;
