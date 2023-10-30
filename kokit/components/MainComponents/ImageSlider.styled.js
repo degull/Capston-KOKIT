@@ -5,10 +5,19 @@ export const Container = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  justify-content: baseline;
+  align-items: baseline;
   position: relative;
+  margin-top: 140px;
+`;
+
+export const SliderContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 `;
 
 export const Image = styled.img`
@@ -16,15 +25,11 @@ export const Image = styled.img`
   height: 116px;
 `;
 
-export const SliderContainer = styled.div`
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-`;
-
 export const Slider = styled.div`
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: ${props => props.width}%;
-  align-items: flex-start;
+  align-items: flex-end; 
+  justify-content: center; 
 `;
+

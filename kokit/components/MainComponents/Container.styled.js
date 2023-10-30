@@ -18,7 +18,6 @@ export const Login = styled.text`
    color: #686868;
    font-size: 9px;
    font-style: normal;
-   font-weight: 500;
    line-height: normal;
    position: absolute;
    top : 60px;

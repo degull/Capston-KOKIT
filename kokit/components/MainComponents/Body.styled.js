@@ -1,32 +1,15 @@
 import styled from "@emotion/styled";
 
-export const Wrapper = styled.div`
-   width: 100%;
-   height: 100%;
-   margin: 0 auto;
-   border: 1px solid #000;
-   background: #fff;
-   backdrop-filter: blur(2px);
-   border: 0;
-   position: relative;
-`;
-
 export const Container = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  justify-content: baseline;
+  align-items: baseline;
+  position: relative;
+  margin-top: 140px;
 `;
-
 
 export const Layout1 = styled.div`
   width: 135px;
@@ -37,7 +20,7 @@ export const Layout1 = styled.div`
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
   display: flex;
   justify-content: center;
-  align-items: center; /* 이미지 중앙 정렬을 위해 사용 */
+  align-items: center;
 `;
 
 export const Layout2 = styled.div`
@@ -48,7 +31,7 @@ export const Layout2 = styled.div`
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
   display: flex;
   justify-content: center;
-  align-items: center; /* 이미지 중앙 정렬을 위해 사용 */
+  align-items: center; 
 `;
 
 export const Layout3 = styled.div`
@@ -59,7 +42,7 @@ export const Layout3 = styled.div`
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
   display: flex;
   justify-content: center;
-  align-items: center; /* 이미지 중앙 정렬을 위해 사용 */
+  align-items: center; 
 `;
 
 export const Layout4 = styled.div`
