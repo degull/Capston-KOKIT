@@ -118,6 +118,6 @@ export const Logout = styled.div`
   line-height: normal;
   display: flex;
   margin-left: 15px;
-  margin: 290px 0 0 20px;
+  margin: 240px 0 0 20px;
   cursor: pointer;
 `;

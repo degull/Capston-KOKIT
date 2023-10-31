@@ -39,8 +39,9 @@ export default function Login() {
          <S.Component>
           <S.Logo src='/img/logo_w.png' />
           <S.Text>간편하게 로그인하고<br />다양한 서비스를 이용해보세요.</S.Text>
-          <S.Bubble src='/img/bubble.png' />
+          
           <S.Btn onClick={handleKakaoLogin}>카카오로 시작하기</S.Btn>
+          <S.Bubble src='/img/bubble.png' />
          </S.Component>
       </S.Wrapper>
   );

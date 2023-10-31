@@ -52,6 +52,8 @@ export const Btn = styled.button`
    border: 0;
 `;
 
-export const bubble = styled.img`
-
+export const Bubble = styled.img`
+   width: 20px;
+   margin: -30px;
+   margin-right: 40%;
 `;
