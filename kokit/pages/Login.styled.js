@@ -37,5 +37,21 @@ export const Text = styled.div`
    font-style: normal;
    font-weight: 600;
    line-height: normal;
-   margin-top: 20px;
+   margin-top: 30px;
+`;
+
+export const Btn = styled.button`
+   width: 248px;
+   height: 40px;
+   border-radius: 5px;
+   margin-top: 60px;
+   background: #F7E600;
+   cursor: pointer;
+   font-size: 12px;
+   font-weight: bold;
+   border: 0;
+`;
+
+export const bubble = styled.img`
+
 `;
