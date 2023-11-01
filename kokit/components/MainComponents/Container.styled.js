@@ -115,3 +115,11 @@ export const TooltipContent2 = styled.div`
 export const TooltipContent3 = styled.div`
    font-size: 9px;
 `;
+
+export const arrowImg = styled.img`
+   width: 6px;
+   height: 6px;
+   top: 63px;
+   right: 20px;
+   position: absolute;
+`;
