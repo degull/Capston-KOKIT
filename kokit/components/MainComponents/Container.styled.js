@@ -12,6 +12,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 `;
 
 export const Login = styled.a`
@@ -39,6 +40,14 @@ export const SignUp = styled.a`
    cursor: pointer;
 `;
 
+export const LangImg = styled.img`
+   width: 8px;
+   height: 8px;
+   top: 61px;
+   right: 73px;
+   position: absolute;
+`;
+
 export const Language = styled.text`
    color: #686868;
    font-size: 9px;
@@ -46,7 +55,7 @@ export const Language = styled.text`
    font-weight: 500;
    line-height: normal;
    position: absolute;
-   top : 60px;
+   top: 60px;
    display: flex;
    right: 30px;
    cursor: pointer;
@@ -80,4 +89,29 @@ export const SearchImg = styled.img`
    top: 86px;
    right: 35px;
    cursor: pointer;
-`
+`;
+
+export const TooltipContainer = styled.div`
+   background-color: #fff;
+   border: 1px solid #ccc;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+   position: absolute;
+   top: 80px; 
+   right: 0;
+   width: 75px; 
+   padding: 10px;
+   z-index: 1; /* Ensure it's above other elements */
+   display: ${(props) => (props.show ? "block" : "none")};
+`;
+
+export const TooltipContent1 = styled.div`
+   font-size: 9px;
+   margin-bottom: 10px;
+`;
+export const TooltipContent2 = styled.div`
+   font-size: 9px;
+   margin-bottom: 10px;
+`;
+export const TooltipContent3 = styled.div`
+   font-size: 9px;
+`;
