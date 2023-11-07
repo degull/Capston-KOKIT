@@ -5,6 +5,7 @@ import Header from './Header';
 import Container from './Container';
 import Body from './Body';
 import ImageSlider from './ImageSlider';
+import Footer from './Footer';
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
             <Container/>
             <ImageSlider />
             <Body />
+            <Footer />
         </S.Container>
       </S.Wrapper>
   );

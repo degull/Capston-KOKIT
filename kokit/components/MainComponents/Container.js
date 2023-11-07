@@ -13,7 +13,7 @@ export default function Container() {
   return (
     <S.Container>
       <S.Search type="text" placeholder="" />
-      <Link href="/Login">
+      <Link href="/LoginComponents/Login">
         <S.Login>로그인</S.Login>
       </Link>
       <Link href='/SignUp'>
