@@ -18,5 +18,4 @@ export const Container = styled.div`
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: #9c9;
 `;

@@ -1,8 +1,7 @@
-/* import React, { useState } from 'react';
+import React, { useState } from 'react';
 import * as S from './Container.styled';
 import Link from 'next/link';
 import Tooltip from './Tooltip';
-import i18n from '@/i18n';
 
 export default function Container() {
   const [showTooltip, setShowTooltip] = useState(false);
@@ -41,9 +40,9 @@ export default function Container() {
   );
 }
 
- */
 
-import React, { useState } from 'react';
+
+/* import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import * as S from './Container.styled';
 import Link from 'next/link';
@@ -83,3 +82,4 @@ export default function Container() {
     </S.Container>
   );
 }
+ */
