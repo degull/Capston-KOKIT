@@ -68,7 +68,10 @@ export const Layout4 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+`;
+
+export const Layout1Title = styled.div`
+  background: #9c9;
 `;
 
 export const LayoutImg1 = styled.img`
@@ -98,14 +101,12 @@ export const Chatbot = styled.div`
   cursor: pointer;
 `;
 
-export const ChatbotImage = styled.image`
-  z-index: 3;
+export const ChatbotImage = styled.img`
   width: 24px;
   height: 24px;
-  display: flex;
-  flex-wrap: wrap; 
-  background: #9c9;
-  
+  margin-top: 9px;
+  margin-left: 90px;
+
 `;
 
 export const ChatbotTitle = styled.div`
@@ -115,5 +116,6 @@ export const ChatbotTitle = styled.div`
   font-weight: bold;
   line-height: normal;
   text-align: center;
-  margin-top: -15px;
+  margin-top: -25px;
 `;
+

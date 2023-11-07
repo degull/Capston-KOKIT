@@ -16,6 +16,8 @@ export default function Body() {
           <S.Layout2><S.LayoutImg2 src='img/information.png' /></S.Layout2>
         </Link>
 
+        
+
       </S.Row>
 
       <S.Row>

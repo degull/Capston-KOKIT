@@ -4,9 +4,11 @@ import Link from 'next/link'
 
 export default function Service(){
    return (
-      <S.Container>
-         <h1>서비스</h1>
-      </S.Container>
+      <S.Wrapper>
+         <S.Container>
+            <h1>서비스</h1>
+         </S.Container>
+      </S.Wrapper>
    );
 };
 

@@ -768,6 +768,13 @@
   "resolved" "https://registry.npmjs.org/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz"
   "version" "1.0.4"
 
+"i18next-xhr-backend@^3.2.2":
+  "integrity" "sha512-OtRf2Vo3IqAxsttQbpjYnmMML12IMB5e0fc5B7qKJFLScitYaXa1OhMX0n0X/3vrfFlpHL9Ro/H+ps4Ej2j7QQ=="
+  "resolved" "https://registry.npmjs.org/i18next-xhr-backend/-/i18next-xhr-backend-3.2.2.tgz"
+  "version" "3.2.2"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
 "i18next@^23.6.0", "i18next@>= 23.2.3":
   "integrity" "sha512-z0Cxr0MGkt+kli306WS4nNNM++9cgt2b2VCMprY92j+AIab/oclgPxdwtTZVLP1zn5t5uo8M6uLsZmYrcjr3HA=="
   "resolved" "https://registry.npmjs.org/i18next/-/i18next-23.6.0.tgz"

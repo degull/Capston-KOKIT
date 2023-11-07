@@ -30,13 +30,26 @@ export const CopyrightText = styled.div`
    line-height: 0.4cm;
 `;
 
-export const SNS1 = styled.image`
-   width: 30px;
-   height: 30px;
-   /* background: #9c9; */
-   z-index: 5;
+export const SNS1 = styled.img`
+   width: 24px;
+   height: 24px;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
 `;
 
-export const SNS2 = styled.image``;
+export const SNS2 = styled.img`
+   width: 24px;
+   height: 24px;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+`;
 
-export const SNS3 = styled.image``;
+export const SNS3 = styled.img`
+   width: 24px;
+   height: 24px;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+`;
