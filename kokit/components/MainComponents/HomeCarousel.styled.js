@@ -33,3 +33,4 @@ export const Slider = styled.div`
   justify-content: center; 
 `;
 
+

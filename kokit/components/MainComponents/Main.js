@@ -4,7 +4,7 @@ import * as S from "./Main.styled";
 import Header from './Header';
 import Container from './Container';
 import Body from './Body';
-import ImageSlider from './ImageSlider';
+import HomeCarousel from './HomeCarousel';
 import Footer from './Footer';
 
 export default function Main() {
@@ -13,7 +13,7 @@ export default function Main() {
          <S.Container>
             <Header />
             <Container/>
-            <ImageSlider />
+            <HomeCarousel />
             <Body />
             <Footer />
         </S.Container>

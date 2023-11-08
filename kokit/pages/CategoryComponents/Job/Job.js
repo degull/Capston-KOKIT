@@ -1,11 +1,12 @@
 import React from 'react';
 import * as S from './Job.styled';
+import Header from '../../../components/MainComponents/Header';
 
 export default function Job(){
    return (
       <S.Wrapper>
          <S.Container>
-            <h1>일자리</h1>
+            <Header />
          </S.Container>
       </S.Wrapper>
    );

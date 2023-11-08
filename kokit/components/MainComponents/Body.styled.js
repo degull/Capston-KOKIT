@@ -22,12 +22,18 @@ export const Layout1 = styled.div`
   width: 135px;
   height: 100px;
   background: #F5F4FF;
-  margin: 35px 40px 130px 15px;
+  margin: 35px 40px 100px 15px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
   display: flex;
   flex-direction: column; 
   justify-content: center;
   align-items: center;
+`;
+
+export const Layout1Text = styled.div`
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
 `;
 
 export const Layout2 = styled.div`
@@ -55,6 +61,7 @@ export const Layout3 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 `;
 
 export const Layout4 = styled.div`
@@ -68,6 +75,7 @@ export const Layout4 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 `;
 
 export const Layout1Title = styled.div`
@@ -78,16 +86,17 @@ export const LayoutImg1 = styled.img`
     display: flex;
   flex-direction: column;
   align-items: center;
+  width: 55px;
   text-align: center;
 `;
 export const LayoutImg2 = styled.img`
-
+  width: 48px;
 `;
 export const LayoutImg3 = styled.img`
-
+width: 50px;
 `;
 export const LayoutImg4 = styled.img`
-
+width: 50px;
 `;
 
 export const Chatbot = styled.div`

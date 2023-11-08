@@ -8,27 +8,26 @@ export default function Body() {
     <S.Container>
       <S.Row>
 
-        <Link href="/CategoryComponents/Service/Service">
-          <S.Layout1><S.LayoutImg1 src='/img/service.png' /></S.Layout1>
-        </Link>
-
-        <Link href="/CategoryComponents/Info/Info">
-          <S.Layout2><S.LayoutImg2 src='img/information.png' /></S.Layout2>
-        </Link>
-
+        <a href="/CategoryComponents/Service/Service">
+          <S.Layout1><S.LayoutImg1 src='/img/service.png' /><S.Layout1Text>서비스</S.Layout1Text></S.Layout1>
+          
+        </a>
         
+        <a href="/CategoryComponents/Info/Info">
+          <S.Layout2><S.LayoutImg2 src='img/information.png' /><S.Layout1Text>정보</S.Layout1Text></S.Layout2>
+        </a>
 
       </S.Row>
 
       <S.Row>
 
-        <Link href="/CategoryComponents/Edu/Edu">
-          <S.Layout3><S.LayoutImg3 src='img/community.png' /></S.Layout3>
-        </Link>
+        <a href="/CategoryComponents/Edu/Edu">
+          <S.Layout3><S.LayoutImg3 src='img/community.png' /><S.Layout1Text>교육 / 문화</S.Layout1Text></S.Layout3>
+        </a>
 
-        <Link href="/CategoryComponents/Job/Job">
-          <S.Layout4><S.LayoutImg4 src='/img/job.png' /></S.Layout4>
-        </Link>
+        <a href="/CategoryComponents/Job/Job">
+          <S.Layout4><S.LayoutImg4 src='/img/job.png' /><S.Layout1Text>일자리</S.Layout1Text></S.Layout4>
+        </a>
       </S.Row>
 
       <Link href="/ChatbotComponents/Chatbot">

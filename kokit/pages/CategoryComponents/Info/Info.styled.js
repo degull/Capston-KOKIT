@@ -21,7 +21,7 @@ export const Container = styled.div`
 `;
 
 export const MainImage = styled.img`
-
+cursor: pointer;
   width: 327px;
   height: 193px;
   margin-top: 70px;
